@@ -63,7 +63,7 @@ class ChartJS {
         });
 
         for (let i = 0; i <= 24; i++) {
-            let time = moment(forecastTime[i] * 1000).format("h:mm");
+            let time = moment(forecastTime[i] * 1000).format("H:mm") + 'h';
             newTime.push(time)
         }
 
